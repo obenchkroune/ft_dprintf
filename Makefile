@@ -8,7 +8,7 @@ INC_DIR		:= include
 SRCS		:= $(wildcard $(SRC_DIR)/*.c)
 OBJS		:= $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRCS))
 
-TARGET		:= ft_dprintf.a
+TARGET		:= libftdprintf.a
 
 .PHONY: all clean fclean re
 
